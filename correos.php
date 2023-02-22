@@ -7,8 +7,8 @@ $mensaje = $_POST['mensaje'];
 $email = $_POST['email'];
 
 
-$header = "Enviado desde Casas Rurales el Lomito Las Huertas"
-$mensajeCompleto =  $mensaje .  "\nAtentamente: " . $nombre
+$header = "Enviado desde Casas Rurales el Lomito Las Huertas";
+$mensajeCompleto =  $mensaje .  "\nAtentamente: " . $nombre;
 
  
 mail($destinatario, $asunto, $mensajeCompleto, $header); 
